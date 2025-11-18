@@ -1,0 +1,14 @@
+#import conda environment#
+######################
+conda env create -f environment.yaml
+
+#import pip environment#
+####################
+pip install -r requirements.txt
+
+#activate environment#
+##################
+source activate ee408ass1
+
+
+
